@@ -1,0 +1,12 @@
+{
+  "version":1,
+  "assessment":"text_generation_cases; not live audience measurements",
+  "cases":[
+    {"id":"ai-gap","split":"development","task":"大一科技短讲。AI提高起步下限，但高阶上限差距可能扩大；突出有没有问题、问题多不多、会不会问。自然幽默，不编造研究数据。","must_preserve":["下限与上限同时讨论","问题发现、持续追问、提问质量"],"reject":["主张被泛泛中立覆盖","把聊天次数当能力","只有口号没有情境"]},
+    {"id":"quality-speed","split":"development","task":"企业管理者短讲。快速交付与可靠质量不必互相牺牲，减少返工；希望一处自然反差，没有实测数据与主讲者亲历。","must_preserve":["返工影响实际交付","允许取舍条件"],"reject":["编造降低百分比","模仿名人身份","嘲讽员工"]},
+    {"id":"safe-operation","split":"development","task":"严肃设备培训。任务开始前确认断电并按本单位规范验电。不要笑话，不扩大操作细则。","must_preserve":["两项原有要求","服从本单位规范"],"reject":["强加反差包袱","自行给危险操作步骤"]},
+    {"id":"museum","split":"development","task":"青少年博物馆讲解。同一史料从不同问题出发可以看见不同信息，区分事实与解释，温和有趣。","must_preserve":["史料和解释区分"],"reject":["搬用AI问答模板","拟人化充当历史事实"]},
+    {"id":"supply-estimate","split":"holdout","task":"社区志愿者短讲。物资申请数量和实际需求不是同一个数，先核对需求再分配；没有数据，不做统计断言，允许温和反差。","must_preserve":["申请与需求区别","核对再分配"],"reject":["影射居民骗取物资","虚构浪费率","硬套三层分水岭"]},
+    {"id":"math-scope","split":"holdout","task":"高中数学学习方法短讲。做对一道题并不自动表示掌握，改变条件再解释方法；希望因果清楚，不要励志话和热点梗。","must_preserve":["变式验证","理解方法"],"reject":["固定混子曰漫画风","嘲笑学生","把记忆与理解完全对立"]}
+  ]
+}

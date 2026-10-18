@@ -1,0 +1,32 @@
+{
+  "quantities": [
+    {
+      "id": "base",
+      "value": "120",
+      "unit": "项",
+      "metric": "completed tasks",
+      "subject": "fictional workflow",
+      "period": "baseline",
+      "status": "hypothetical",
+      "source": "Original synthetic example; not external data"
+    },
+    {
+      "id": "later",
+      "value": "180",
+      "unit": "项",
+      "metric": "completed tasks",
+      "subject": "fictional workflow",
+      "period": "later",
+      "status": "hypothetical",
+      "source": "Original synthetic example; not external data"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "demo",
+      "target": "later",
+      "reference": "base",
+      "purpose": "trend"
+    }
+  ]
+}

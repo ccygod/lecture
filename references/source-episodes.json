@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-15",
+  "coverage": "2 source-linked Luo episodes and 3 episodes from one Hunzi visual work; not a representative corpus or a full transcript archive",
+  "episodes": [
+    {
+      "id": "luo_supplier_reconsideration",
+      "source": {
+        "title": "2016 极客公园创新公开课演讲整理",
+        "url": "https://www.geekpark.net/news/214513",
+        "kind": "edited_speech",
+        "body_sha256": "33a74595e017fce7aad80080a1ec4b30bc62f152c40b15bc6a50832ede046a28",
+        "char_span": [
+          2805,
+          3570
+        ],
+        "span_sha256": "97e6e86651860a2dc51ea0ca8db7d4cf2afccc5d37033e95e943582d1c053288",
+        "locator_basis": "Python Unicode string offsets in the source body identified by body_sha256; not video timestamps"
+      },
+      "observed_sequence": [
+        "先提出对消费者评价的不满。",
+        "采购遇到约束，自己的反应与先前评价冲突。",
+        "同事反问让矛盾落到讲者自身。",
+        "评价转向选择背后的风险与信息成本。"
+      ],
+      "transfer": "在确有依据的处境中，让同一标准也检验讲者自己的判断；新的动作和约束推动重新理解。没有真实经历就明确设想，不编自传。",
+      "visual_role": "原页面包含讲者反应图；纯口播迁移须让听众听出选择与矛盾，不能假装他们看见原图。",
+      "interpretation_boundary": "编辑者对已读片段的归纳，非作者方法论或效果实证。整理稿未逐字核对录像；不能复制亲历、身份攻击或当年的商业结论。"
+    },
+    {
+      "id": "luo_poster_self_standard",
+      "source": {
+        "title": "2014 一个理想主义者的创业故事 IV 演讲实录",
+        "url": "https://www.cnbeta.com.tw/articles/tech/352265.htm",
+        "kind": "transcript",
+        "body_sha256": "e810d131bb23678df05836e3df3be1fe02589297754e76aa078a7bcd3205679a",
+        "char_span": [
+          19776,
+          20475
+        ],
+        "span_sha256": "3654cdf4cf2ab0e1bb7305aef5a0819d6e91278504b6a49e191792fde6439d8a",
+        "locator_basis": "Python Unicode string offsets in the source body identified by body_sha256; not video timestamps"
+      },
+      "observed_sequence": [
+        "宣传采用一个有利排名。",
+        "同事接着追问被省略的参照和缩小的条件。",
+        "每次追问都改变同一材料的解释。",
+        "原先宣称的标准也反过来检验自己。"
+      ],
+      "transfer": "选择一个正常制作过程中的取舍，继续追问它实际隐去了什么；细节参与论证，不能靠虚构比例或臆造听众犯错制造包袱。",
+      "visual_role": "排版大小属于论证材料，若教学迁移用图，图上条件和比较对象要与口播一致。",
+      "interpretation_boundary": "编辑者对已读片段的归纳，非作者方法论或效果实证。整理稿未逐字核对录像；不能复制亲历、身份攻击或当年的商业结论。"
+    },
+    {
+      "id": "hunzi_rules_change",
+      "source": {
+        "title": "如果东周列国是一个班级，这事儿就好理解了（三）",
+        "url": "https://ishare.ifeng.com/c/s/7jH3CntXdbI",
+        "kind": "attributed_visual_repost",
+        "publication_note": "转载页标明来自混子曰；未取得公众号首发版本",
+        "visual_locations": [
+          {
+            "image_index": 1,
+            "url": "https://e0.ifengimg.com/07/2019/0107/2F7E3FD1C2B313D8538A434923B5BD59961CAFD8_size136_w600_h1796.jpeg",
+            "sha256": "bbbc5d3a33cb759ab53bd03c29a591e8bdc8f9a90673f151ea748e753fc89a6f",
+            "location": "春秋与战国的并排对照及班主任画面"
+          }
+        ]
+      },
+      "observed_sequence": [
+        "建立一套熟悉的角色关系。",
+        "把不同阶段的规则差异放在相同关系内对照。",
+        "后续事件沿着变化后的规则进入。"
+      ],
+      "transfer": "先让听众理解关系中哪条规则变了，再让一个后果自然发生；不把两个阶段只换成两个标签。",
+      "visual_role": "位置、动作和结果并排呈现；若做口播，需要说出画面承担的关系。",
+      "interpretation_boundary": "这是对这一篇图文原作的阅读观察，不是历史真实性核查，不证明作者所有作品均如此。拟人、粗话、地域或性别刻板描述不迁移；教学系统不能照搬班级关系或画风。"
+    },
+    {
+      "id": "hunzi_relations_to_diagram",
+      "source": {
+        "title": "如果东周列国是一个班级，这事儿就好理解了（三）",
+        "url": "https://ishare.ifeng.com/c/s/7jH3CntXdbI",
+        "kind": "attributed_visual_repost",
+        "publication_note": "转载页标明来自混子曰；未取得公众号首发版本",
+        "visual_locations": [
+          {
+            "image_index": 4,
+            "url": "https://e0.ifengimg.com/09/2019/0107/C9D6EDB97FEA00C893DD95F77F777EF5AB5B4D8D_size284_w600_h3813.jpeg",
+            "sha256": "25bdd58a212b2600783fccd12cfd65bdaa416fc5cdcf34561c8c00fd08ff3af4",
+            "location": "三家分晋、田氏代齐的相邻图文与层级/时间图"
+          }
+        ]
+      },
+      "observed_sequence": [
+        "同一角色体系出现内部关系变化。",
+        "动作推进到角色分拆或替换的结果。",
+        "正式事件名与图示接回同一过程。"
+      ],
+      "transfer": "在熟悉过程里展开一个关系如何变化，再把图与术语接回；不只把概念换个人名就退出类比。",
+      "visual_role": "层级图解释关系，时间分界解释沿用同名却发生变化的对象。图不重复整段文字。",
+      "interpretation_boundary": "这是对这一篇图文原作的阅读观察，不是历史真实性核查，不证明作者所有作品均如此。拟人、粗话、地域或性别刻板描述不迁移；教学系统不能照搬班级关系或画风。"
+    },
+    {
+      "id": "hunzi_flank_changes_action",
+      "source": {
+        "title": "如果东周列国是一个班级，这事儿就好理解了（三）",
+        "url": "https://ishare.ifeng.com/c/s/7jH3CntXdbI",
+        "kind": "attributed_visual_repost",
+        "publication_note": "转载页标明来自混子曰；未取得公众号首发版本",
+        "visual_locations": [
+          {
+            "image_index": 5,
+            "url": "https://e0.ifengimg.com/07/2019/0107/B8678D0AA67FB5D2C7275BD4D432035D73EC8375_size158_w600_h2058.jpeg",
+            "sha256": "340d00c34bc66c7a11fff745baca9f5e371455c6678e2f0cf626744a3175acca",
+            "location": "围魏救赵的墙、人物位置与重复行动"
+          }
+        ]
+      },
+      "observed_sequence": [
+        "先建立对手正在实施的行动。",
+        "另一处行动改变了对手继续行动的条件。",
+        "重复场景显示新的因果作用。",
+        "正式名称接回已理解的关系。"
+      ],
+      "transfer": "迁移因果关系而非人物身份：展示哪一个新条件使下一步必须改变；回扣需要增加新理解。",
+      "visual_role": "行动方向和位置承担解释；没有视觉时要补清谁在何处改变了谁的选择。",
+      "interpretation_boundary": "这是对这一篇图文原作的阅读观察，不是历史真实性核查，不证明作者所有作品均如此。拟人、粗话、地域或性别刻板描述不迁移；教学系统不能照搬班级关系或画风。"
+    }
+  ]
+}

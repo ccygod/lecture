@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "checked_on": "2026-10-15",
+  "sources": [
+    {
+      "id": "os2013",
+      "title": "2013 Smartisan OS 发布会现场图文实录",
+      "url": "https://www.cnbeta.com.tw/articles/tech/231535.htm",
+      "kind": "live_summary",
+      "extent": "complete_page",
+      "body_sha256": "99afcf908f1ec5dde03ca2af703ceaa6ca9d79359584c2984b0d533acff5511d",
+      "coverage_boundary": "已读获取的页面正文；未逐字与完整录像核对，页面完整不证明发言无删节。"
+    },
+    {
+      "id": "t1_2014",
+      "title": "2014 Smartisan T1 发布会现场图文直播",
+      "url": "https://www.cnbeta.com.tw/articles/tech/293839.htm",
+      "kind": "live_summary",
+      "extent": "complete_page",
+      "body_sha256": "29f6b8aba6332167dd44ea6e732dfc49be14b5b417363611742b4e309091bc34",
+      "coverage_boundary": "已读获取的页面正文；未逐字与完整录像核对，页面完整不证明发言无删节。"
+    },
+    {
+      "id": "story2014",
+      "title": "2014 一个理想主义者的创业故事 IV 演讲实录",
+      "url": "https://www.cnbeta.com.tw/articles/tech/352265.htm",
+      "kind": "transcript",
+      "extent": "complete_page",
+      "body_sha256": "e810d131bb23678df05836e3df3be1fe02589297754e76aa078a7bcd3205679a",
+      "coverage_boundary": "已读获取的页面正文；未逐字与完整录像核对，页面完整不证明发言无删节。"
+    },
+    {
+      "id": "geek2016",
+      "title": "2016 极客公园创新公开课演讲整理",
+      "url": "https://www.geekpark.net/news/214513",
+      "kind": "edited_speech",
+      "extent": "complete_page",
+      "body_sha256": "33a74595e017fce7aad80080a1ec4b30bc62f152c40b15bc6a50832ede046a28",
+      "coverage_boundary": "已读获取的页面正文；未逐字与完整录像核对，页面完整不证明发言无删节。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "os_shape",
+      "source_id": "os2013",
+      "lines": [
+        24,
+        36
+      ],
+      "span_sha256": "4753ad0e8e21407dcd41527d4f2f748ee8d2f929eb26b5078bb06f79e015c599",
+      "observation_paraphrase": "从形状统一的生活延伸回到屏幕空间与图标美观的取舍。",
+      "sequence": [
+        "现象",
+        "有边界的夸张",
+        "约束",
+        "选择"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "os_language",
+      "source_id": "os2013",
+      "lines": [
+        88,
+        91
+      ],
+      "span_sha256": "5fc57da303f158758d7fbd62e2c53e741ee1e72680937c1dfaa2ed5c87a29c7e",
+      "observation_paraphrase": "将误切语言后的连续失败走完，再揭示恢复入口。",
+      "sequence": [
+        "具体任务",
+        "连续遇阻",
+        "可见方案",
+        "解释"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "t1_return",
+      "source_id": "t1_2014",
+      "lines": [
+        17,
+        22
+      ],
+      "span_sha256": "c235e9adee7beb3c506babefec27200c916741754099c018ff96e37535d0d231",
+      "observation_paraphrase": "开场问题与结尾价格回答远距呼应；须联读127–135行。",
+      "sequence": [
+        "提出问题",
+        "建立判断条件",
+        "延后回答",
+        "回扣"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured",
+      "supporting_spans": [
+        {
+          "lines": [
+            127,
+            135
+          ],
+          "span_sha256": "64f85fc29e72f07fb175d6aa041f3235b9c5e87b2009985c3d9f335be7eb9edd",
+          "role": "payoff"
+        }
+      ]
+    },
+    {
+      "id": "story_delivery",
+      "source_id": "story2014",
+      "lines": [
+        13,
+        21
+      ],
+      "span_sha256": "af7ee00666671d0c0a38704a39a5ee114be80a62b966f5296b7853649130f94e",
+      "observation_paraphrase": "细小制造问题与时间窗口迫使原判断改变。",
+      "sequence": [
+        "原判断",
+        "具体细节",
+        "后果",
+        "调整行动"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "story_responsibility",
+      "source_id": "story2014",
+      "lines": [
+        37,
+        38
+      ],
+      "span_sha256": "59b7fe1f337f20c56b2c04dcb3026707a2f334454175a5066f98c0fa47660a34",
+      "observation_paraphrase": "可见的家庭场景让抽象职业责任改变计量单位。",
+      "sequence": [
+        "处境",
+        "具体承担者",
+        "判断变化",
+        "职责"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "story_standard",
+      "source_id": "story2014",
+      "lines": [
+        68,
+        71
+      ],
+      "span_sha256": "3654cdf4cf2ab0e1bb7305aef5a0819d6e91278504b6a49e191792fde6439d8a",
+      "observation_paraphrase": "内部同事用公开标准反查自己的宣传选择。",
+      "sequence": [
+        "主张",
+        "自身反例",
+        "检验",
+        "原则"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "geek_supplier",
+      "source_id": "geek2016",
+      "lines": [
+        44,
+        49
+      ],
+      "span_sha256": "97e6e86651860a2dc51ea0ca8db7d4cf2afccc5d37033e95e943582d1c053288",
+      "observation_paraphrase": "对外消费立场与自身采购反应相照，解释风险判断。",
+      "sequence": [
+        "原判断",
+        "相似处境",
+        "自身反例",
+        "重估"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "geek_market",
+      "source_id": "geek2016",
+      "lines": [
+        38,
+        41
+      ],
+      "span_sha256": "245027590889eefedc2f0eb33a08ffbcefd6525188fbc17b98dd6f0f2a3e15b6",
+      "observation_paraphrase": "同一市场变化因目标不同而改变利弊判断。",
+      "sequence": [
+        "看似坏消息",
+        "改变评价目标",
+        "解释条件",
+        "判断"
+      ],
+      "status": "editorial_inference_from_text; audience response unmeasured"
+    },
+    {
+      "id": "os_selfcontrast",
+      "source_id": "os2013",
+      "lines": [
+        49,
+        54
+      ],
+      "span_sha256": "89c4b133c8e0a47c0ba87b3d319327d558adfd4a7aa4a9ae70a73b97d23d616b",
+      "observation_paraphrase": "精美交互与讲者自我形象形成反差；身份与外貌不照搬。",
+      "sequence": [
+        "展示",
+        "预期",
+        "自我反差",
+        "回到产品"
+      ],
+      "status": "editorial inference; no measured audience effect"
+    }
+  ],
+  "boundary": "原文片段定位与编辑推断分列；不包含完整受版权保护的演讲，不宣称逐字听校。",
+  "attribution_correction": "opportunity_to_audience已从名人机制库移除；受众价值关联继续由relevance桥接与独立参考承担，不再归给罗永浩原文。"
+}

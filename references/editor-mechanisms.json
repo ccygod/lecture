@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "priority": [
+    "luo",
+    "lei",
+    "wang",
+    "hunzi"
+  ],
+  "priority_note": "本技能的中文口播借鉴顺序；按教学需要匹配后排序，不是作者效果排名、混合比例或每段配额。",
+  "cards": [
+    {
+      "id": "default_to_tradeoff",
+      "inspiration": "luo",
+      "needs": [
+        "challenge_default",
+        "consolidate"
+      ],
+      "requires_humor": false,
+      "move": "先把听众的默认判断摆出来，用具体取舍或反例改变判断，再给依据。",
+      "visible_payoff": "听众能指出原来忽略了哪个条件。",
+      "avoid": "把别人的选择一概说成愚蠢；制造虚假常识。",
+      "source": "https://www.cnbeta.com.tw/articles/tech/231535.htm",
+      "source_status": "基于已定位文本片段的编辑归纳；来源类型与覆盖见luo-source-evidence.json，非逐字录像核验或现场效果实证。",
+      "evidence_ids": [
+        "os_shape",
+        "geek_supplier",
+        "geek_market"
+      ],
+      "episode_ids": [
+        "luo_supplier_reconsideration",
+        "luo_poster_self_standard"
+      ]
+    },
+    {
+      "id": "absurd_extension",
+      "inspiration": "luo",
+      "needs": [
+        "challenge_default"
+      ],
+      "requires_humor": true,
+      "move": "将一个已经存在的规则延伸到生活里，展示不合理的后果，再回到真实问题。",
+      "visible_payoff": "意外来自原规则的后果，不是无关段子。",
+      "avoid": "把夸张情境写成实际事实或把类比当证明。",
+      "source": "https://www.cnbeta.com.tw/articles/tech/231535.htm",
+      "source_status": "基于已定位文本片段的编辑归纳；来源类型与覆盖见luo-source-evidence.json，非逐字录像核验或现场效果实证。",
+      "evidence_ids": [
+        "os_shape"
+      ],
+      "episode_ids": [
+        "luo_supplier_reconsideration",
+        "luo_poster_self_standard"
+      ]
+    },
+    {
+      "id": "status_small_result",
+      "inspiration": "luo",
+      "needs": [
+        "humanize",
+        "challenge_default"
+      ],
+      "requires_humor": true,
+      "move": "先认真展示一个具体结果，再用讲者自身可承担的反差松开语气，接回当前主题；自嘲不替代机制解释。",
+      "visible_payoff": "轻松表达仍服务当前对象与结果，不依靠攻击听众。",
+      "avoid": "照搬原作者外貌、身份或经历的笑点；编造讲者亲历；用自嘲代替论证。",
+      "source": "https://www.cnbeta.com.tw/articles/tech/231535.htm",
+      "source_status": "基于已定位文本片段的编辑归纳；来源类型与覆盖见luo-source-evidence.json，非逐字录像核验或现场效果实证。",
+      "evidence_ids": [
+        "os_selfcontrast"
+      ],
+      "episode_ids": [
+        "luo_supplier_reconsideration",
+        "luo_poster_self_standard"
+      ]
+    },
+    {
+      "id": "detail_callback",
+      "inspiration": "luo",
+      "needs": [
+        "consolidate",
+        "close"
+      ],
+      "requires_humor": false,
+      "move": "取回前文已经讲过的一个物件、动作或问题，用新理解给它新含义。",
+      "visible_payoff": "结尾回扣完成最初问题，而非重复口号。",
+      "avoid": "回扣前文根本没有出现的细节。",
+      "source": "https://www.cnbeta.com.tw/articles/tech/293839.htm",
+      "source_status": "基于已定位文本片段的编辑归纳；来源类型与覆盖见luo-source-evidence.json，非逐字录像核验或现场效果实证。",
+      "evidence_ids": [
+        "t1_return"
+      ]
+    },
+    {
+      "id": "choice_action_result",
+      "inspiration": "lei",
+      "needs": [
+        "develop_choice",
+        "humanize"
+      ],
+      "requires_humor": false,
+      "move": "给出选择及代价，讲清行动和结果，最后提炼经验；未解决的结果可以保留。",
+      "visible_payoff": "听众知道为什么这样选，以及做了什么。",
+      "avoid": "编造成功结局、个人回忆或励志苦难。",
+      "source": "https://www.digitaling.com/articles/1241022.html",
+      "source_status": "官方首发演讲转载；产品尾段非逐字稿"
+    },
+    {
+      "id": "earned_summary",
+      "inspiration": "lei",
+      "needs": [
+        "consolidate",
+        "close"
+      ],
+      "requires_humor": false,
+      "move": "解释或经历推进到位之后，用一句话收束其意义，不抢在论证前宣布答案。",
+      "visible_payoff": "凝练句有前文支撑。",
+      "avoid": "空泛排比、每段升华。",
+      "source": "https://www.digitaling.com/articles/962891.html",
+      "source_status": "官方首发演讲转载"
+    },
+    {
+      "id": "experience_to_test",
+      "inspiration": "wang",
+      "needs": [
+        "translate_impact",
+        "challenge_default"
+      ],
+      "requires_humor": false,
+      "move": "把技术指标或感受放进具体使用过程，指出可观察差别，再说明指标与限制。",
+      "visible_payoff": "听众知道好在哪里、怎么比、何时未必好。",
+      "avoid": "把单一指标当体验全貌，冒充现场实测。",
+      "source": "https://www.36kr.com/p/1641877880833",
+      "source_status": "发布会报道；不用于模仿逐字口吻"
+    },
+    {
+      "id": "causal_roles",
+      "inspiration": "hunzi",
+      "needs": [
+        "explain_mechanism",
+        "translate_impact"
+      ],
+      "requires_humor": false,
+      "move": "从对象的目标、条件、动作和反馈梳理因果，映射到熟悉关系，再回到术语。",
+      "visible_payoff": "听众能复述原概念的关系，不只记住比喻。",
+      "avoid": "漫画化成人视觉；删掉决定含义的时间、单位或条件；机制不同却表面相像的类比。",
+      "source": "https://ishare.ifeng.com/c/s/7jH3CntXdbI",
+      "source_status": "署名转载中的6张原作长图已逐张阅读；具体图块、指纹、阅读范围与推断见source-episodes.json，非首发核验或效果实验。",
+      "episode_ids": [
+        "hunzi_rules_change",
+        "hunzi_relations_to_diagram",
+        "hunzi_flank_changes_action"
+      ]
+    }
+  ]
+}
