@@ -1,0 +1,58 @@
+{
+  "quantities": [
+    {
+      "id": "before",
+      "value": "180",
+      "unit": "分钟",
+      "metric": "同批180份材料的初次归类用时",
+      "subject": "教学假设流程",
+      "period": "同一批次",
+      "status": "hypothetical",
+      "source": "本仓库原创教学假设，未实测"
+    },
+    {
+      "id": "after",
+      "value": "120",
+      "unit": "分钟",
+      "metric": "同批180份材料的初次归类用时",
+      "subject": "教学假设流程",
+      "period": "同一批次",
+      "status": "hypothetical",
+      "source": "本仓库原创教学假设，未实测"
+    },
+    {
+      "id": "rate-before",
+      "value": "60",
+      "unit": "项",
+      "metric": "每小时初次归类处理量",
+      "subject": "教学假设流程",
+      "period": "同一批次",
+      "status": "hypothetical",
+      "source": "同批180份材料除以假设用时换算，未实测"
+    },
+    {
+      "id": "rate-after",
+      "value": "90",
+      "unit": "项",
+      "metric": "每小时初次归类处理量",
+      "subject": "教学假设流程",
+      "period": "同一批次",
+      "status": "hypothetical",
+      "source": "同批180份材料除以假设用时换算，未实测"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "time-change",
+      "target": "after",
+      "reference": "before",
+      "purpose": "trend"
+    },
+    {
+      "id": "rate-change",
+      "target": "rate-after",
+      "reference": "rate-before",
+      "purpose": "trend"
+    }
+  ]
+}

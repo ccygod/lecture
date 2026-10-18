@@ -1,0 +1,77 @@
+{
+  "comparisons": [
+    {
+      "id": "time-change",
+      "purpose": "trend",
+      "target": {
+        "id": "after",
+        "value": "120",
+        "unit": "分钟",
+        "metric": "同批180份材料的初次归类用时",
+        "subject": "教学假设流程",
+        "period": "同一批次",
+        "status": "hypothetical",
+        "source": "本仓库原创教学假设，未实测"
+      },
+      "reference": {
+        "id": "before",
+        "value": "180",
+        "unit": "分钟",
+        "metric": "同批180份材料的初次归类用时",
+        "subject": "教学假设流程",
+        "period": "同一批次",
+        "status": "hypothetical",
+        "source": "本仓库原创教学假设，未实测"
+      },
+      "ratio": "0.666667",
+      "percentage_of_reference": "66.666667",
+      "warnings": [
+        "forecast/estimate/hypothetical status is preserved; do not describe as observed actuals"
+      ],
+      "assessment": {
+        "arithmetic": "calculated",
+        "source_truth": "not_assessed",
+        "audience_fit": "not_assessed"
+      },
+      "reference_multiple_of_target": "1.5",
+      "relative_change_percent": "-33.333333"
+    },
+    {
+      "id": "rate-change",
+      "purpose": "trend",
+      "target": {
+        "id": "rate-after",
+        "value": "90",
+        "unit": "项",
+        "metric": "每小时初次归类处理量",
+        "subject": "教学假设流程",
+        "period": "同一批次",
+        "status": "hypothetical",
+        "source": "同批180份材料除以假设用时换算，未实测"
+      },
+      "reference": {
+        "id": "rate-before",
+        "value": "60",
+        "unit": "项",
+        "metric": "每小时初次归类处理量",
+        "subject": "教学假设流程",
+        "period": "同一批次",
+        "status": "hypothetical",
+        "source": "同批180份材料除以假设用时换算，未实测"
+      },
+      "ratio": "1.5",
+      "percentage_of_reference": "150",
+      "warnings": [
+        "forecast/estimate/hypothetical status is preserved; do not describe as observed actuals"
+      ],
+      "assessment": {
+        "arithmetic": "calculated",
+        "source_truth": "not_assessed",
+        "audience_fit": "not_assessed"
+      },
+      "reference_multiple_of_target": "0.666667",
+      "relative_change_percent": "50"
+    }
+  ],
+  "assessment": "arithmetic only; supplied sources and audience fit require review"
+}

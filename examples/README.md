@@ -1,6 +1,12 @@
 # 示例索引
 
-- [讲稿前后对比](briefing-before-after.md)：原创中文汇报片段及页面说明。
-- [数量参照](quantity-reference.json)：虚构的120与180比较，运行`python3 scripts/compare_quantities.py examples/quantity-reference.json`，预期倍数1.5、相对变化50%。
+先读正文，感受编辑前后有什么不同；再按需要运行本地检查。
 
-示例说明选择方法，不是所有听众的固定模板。完整讲稿制作仍按SKILL.md核对用途与交付范围。
+- [四组原创前后对比](editorial-before-after.md)：情境推进与判断变化、关系类比、内容相关幽默、量感与受众价值桥；另含整场节奏、回扣和主张保真。
+- [口播→逐字上屏→页面视觉简报](spoken-to-slide.md)：一段排期设想如何拆成两页认知动作，包含布局、讲者配合和误读验收。
+- [稳定页码与版本绑定评审](traceable-handoff.md)：已有脚本怎样保持讲稿引用与当前稿件一致，含可运行页码样例。
+- [简短汇报片段](briefing-before-after.md)：AI辅助文档流程中的具体任务与有限试点。
+- [基础数量参照](quantity-reference.json)：虚构120与180比较，预期1.5倍、相对变化50%。
+- [流程用时假设](workflow-time-hypothetical.json)及[计算回执](workflow-time-receipt.json)：180分钟到120分钟，分清时间变化与处理速度。
+
+示例均为原创虚构编辑样本，不能当真实项目、模型性能基准或已验证的听众效果。完整制作仍按[技能说明](../SKILL.md)核对用途与交付范围。
