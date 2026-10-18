@@ -1,4 +1,4 @@
 interface:
   display_name: "Lecture"
-  short_description: "先确认授课、汇报或演讲目的，再制作口播与PPT配套资料"
-  default_prompt: "Use $lecture. Confirm the current purpose first: teaching, a client or leadership briefing, a public or partnership speech, mixed use, or another purpose. Then diagnose the outline and confirm deliverables, slide production approach, and occasion constraints. Tailor spoken content, slide briefs, and supporting framework to that purpose."
+  short_description: "按用途和听众制作中文口播与PPT页面说明"
+  default_prompt: "请使用$lecture。先确认授课、客户或领导汇报、公开发言等当前用途，诊断大纲，再核对交付物、页面方式与场合条件，完成对应口播、逐页说明和配套框架。"

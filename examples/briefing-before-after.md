@@ -1,30 +1,30 @@
-# From an outline to a spoken explanation
+# 从大纲到可讲的表达
 
-原创示例 / Original illustrative example. This is a compact editorial demonstration, not a complete lecture package or a measured model comparison.
+原创编辑示例，用于说明改写思路，不是完整教参，也不是模型对照实验。
 
-## Brief
+## 场景与目标
 
-Audience: an institutional operations team. Purpose: a short briefing. Intended change: see where an AI-assisted document workflow saves time and where human verification remains necessary. No numeric productivity claim is supplied.
+听众为机构业务团队，用于简短汇报，让对方理解AI辅助文档流程中哪些步骤可以提速、哪些判断仍需核实。不提供未经验证的效率百分比。
 
-## Before
+## 改写前
 
 “AI赋能高效办公，通过智能化手段提升生产效率，推动工作模式变革，并应高度重视人工智能应用的风险和挑战。”
 
-## After · 可念口播
+## 改写后 可念口播
 
 明早之前，你要看完十份报告。AI可以先帮你找出反复出现的问题。但决定之前，你还得知道：每个结论从哪份材料来？真正节省时间的，是让它先整理线索，再把关键核查留在流程里。
 
 所以这次试点，我们先选一类重复出现的材料：让AI做初步归类，把原文链接留在结论旁边，再由负责的人确认关键判断。先记录实际省了哪些步骤，也记录它漏了什么，再决定要不要扩大范围。
 
-## Supporting slide brief
+## 对应页面说明
 
-- **Claim:** 先整理线索，再核实判断。
-- **On-screen copy:** 十份报告 → 三个共性问题 → 带来源的判断。
-- **Visual:** three left-to-right groups; attach a source marker to each question. Ten and three describe this fictional scene, not an observed benchmark.
-- **Speaker coordination:** explain what still needs review while pointing to a source marker.
-- **Editable build:** native text, boxes and connectors; no full-slide image is required.
-- **Acceptance:** no unsupported efficiency percentage; visible source relationship; spoken explanation is not pasted as a wall of slide text.
+- 页面主张：先整理线索，再核实判断。
+- 上屏文案：十份报告 → 三个共性问题 → 带来源的判断。
+- 画面：三组从左至右排列，每个问题保留来源标记。数字仅构成虚构场景，不是测量结果。
+- 讲者配合：指向来源标记时解释哪些判断仍需核实。
+- 制作：原生文字、图形与连接线，无需整页生图。
+- 验收：没有编造效率比例，来源关系可见，不将整段口播塞到页面。
 
-## Why these edits help
+## 修改的作用
 
-The revision names a task, an action and a decision. The risk is attached to a concrete check. It proposes a limited pilot without pretending it has already delivered results. A speaker should still rehearse it with the intended audience.
+改写明确了任务、动作和决定，把风险落实为具体核查，并提出有限试点而未冒充已交付成果。讲者仍需面对实际听众试讲。

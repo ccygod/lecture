@@ -1,16 +1,12 @@
-# Release validation — v1.0.0
+# 1.0.1 中文发布验证记录
 
-Checked locally on 2026-10-18, macOS, against the public package.
+本地核查日期：2026年10月18日。
 
-| Check | Observed result |
-| --- | --- |
-| Python regression suite | 184 tests passed |
-| Fresh installation and existing-directory protection | Covered by three installation tests |
-| Skill frontmatter | Checked with the local skill validator |
-| Relative Markdown file links | Checked against repository files |
-| Public package text and DOCX XML | Scanned for local paths, client names and credential-like content |
-| GitHub Actions | Linux / Python 3.10 and 3.12 both passed: [run 39135292064](https://github.com/ccygod/lecture/actions/runs/39135292064) |
+- 回归测试：184项通过。
+- 安装器：新目录安装、拒绝覆盖已有安装、拒绝装入源目录内部均有测试。
+- 技能元数据与本地Markdown文件链接已检查。
+- 中文版保留脚本功能，主说明、封面、技能说明、帮助和发布素材改为中文。
+- GitHub自动测试覆盖Linux下Python 3.10和3.12，以仓库实际运行回执为准。
+- 公开包未包含私人会话、客户文件或嵌入字体；技术标识及标准许可证保持原形式。
 
-## Lecture-specific evidence
-
-The existing 181 tests pass, plus 3 installation tests. The arithmetic example reports ratio 1.5 and relative change 50%. The before/after is an original editorial illustration, not a controlled generation benchmark. No live audience study, real rehearsal or full generated presentation is claimed.
+Lecture的181项已有回归与3项安装回归均保留；数量示例输出1.5倍和50%相对变化。前后对比属于原创编辑示意，不是模型性能基准，未进行现场听众实验。

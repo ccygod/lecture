@@ -1,6 +1,6 @@
 ---
 name: lecture
-description: Use for Chinese teaching, client or leadership briefings, partnership speeches, keynotes and talks that need engaging spoken content with slide briefs. Confirm the purpose first, especially when a draft feels flat, overly scripted or poorly matched to the audience and occasion.
+description: "适用于中文授课、客户或领导汇报、合作发言和公开演讲，将大纲加工成口播与逐页制作说明；根据用途、听众和场合调整表达。"
 ---
 
 # Lecture

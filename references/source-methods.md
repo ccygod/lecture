@@ -1,102 +1,33 @@
-# Source method fidelity map
+# 参考方法与迁移关系
 
-This reference records source workflows available to `lecture`. It is a fidelity map, not a compulsory recipe for every theme. Use a workflow when the medium and communication task fit; the current request and the lecture output contract take precedence. For spoken delivery, read `spoken-language-and-delivery.md`; for the evidence and adoption limits, read `oral-research.md`.
+本文件记录可借鉴的方法，不是每个主题都要照做的固定配方。媒介与表达任务适配时才采用，当前请求和讲稿交付约定优先。口播读`spoken-language-and-delivery.md`，证据及采用边界读`oral-research.md`。
 
-## ShortVideo-AI/short-video-script-skill
+## 短视频脚本方法
 
-Source sequence:
+ShortVideo-AI/short-video-script-skill的流程：识别内容类别；整理听众、困难、核心信息、目标、风险与边界；选择角度；设计标题与开头；按问题、解释、例子、方法及记忆收束形成口播；检查准确性、夸张、自然度、时长与媒介；规划画面、字幕和节奏；仅在用户需要推广时提供发布素材。
 
-1. identify content category;
-2. topic brief: audience, pain, core information, goal, risks, boundaries;
-3. angle generation;
-4. title and hook;
-5. spoken script: pain/problem → explanation → example → method/insight → memorable close;
-6. script review: hook length, accuracy, exaggeration, spoken naturalness, duration, platform fit;
-7. storyboard: lightweight production plan, visual, subtitle, rhythm;
-8. release package when the user wants publishing copy.
+迁移到Lecture时，用听众水平、全场连贯、口播和视觉负荷替代平台指标，用逐页制作说明替代视频分镜。场景和张力按解释需要安排，不设抽象概念配额，不编统计数据。普通讲解不必复现全部视频步骤。
 
-Lecture translation:
+## Hiruno内容方法
 
-- Use 1–7 when adapting a video-style explanation; a plain lecture explanation need not reproduce this sequence.
-- Replace platform/duration checks with audience level, lecture coherence, oral delivery and visual load.
-- Replace storyboard with slide-production notes: on-screen copy, visual, chart, source footnote and what remains spoken.
-- Skip release package unless the user asks for recording or promotion.
-- A scene or tension and concrete examples can anchor an explanation. Their placement follows the listener's need, without a fixed abstract-concept quota. Keep capability boundaries and do not invent statistics.
+### 镜头前讲述结构
 
-## Hiruno content skills
+原顺序是开头吸引、背景铺设、价值推进、兑现与行动。迁移后：用问题、反差、场景或预测开场；说明听众处境与价值；一个主题推进一个主要想法；以结论、回扣、提取或演示交接兑现。行动引导可以是判断、预测、迁移任务或转场，不插入泛化的“关注更多”。
 
-### Direct-to-camera structure
+### 开头与再次唤起注意
 
-Source sequence: Hook → Setup → Value Beats → Payoff/CTA.
+可选问题、数字清单、故事、否定和反常识五类开头，按适配性选择，不为凑变化强行换类型。编号、对照、好奇推进、期待和回扣放在概念转折或高密度解释之后，不能句句使用，每次都须引出真实的新内容。
 
-Lecture translation:
+## ModernDive教学组织方法
 
-- Hook becomes an opening question, contradiction, scene or prediction.
-- Setup becomes the audience's problem and why it matters.
-- Value Beats become one-idea thematic units.
-- Payoff becomes a conclusion, callback, student retrieval or handoff to a demonstration.
-- CTA becomes a question, prediction, transfer task or transition; never insert a generic “follow for more.”
+讲者准备可包括目标、目录与估时、直接开场、点名或提问机会、转场、分组任务、离场检查和课后自检。页面可包括目标、间隔练习、章节分隔、选择判断、先预测后核对、单一主张和末尾提取。
 
-### Hook types
+按当前用途保留目标、预测核对、误区检查和末尾回顾；时长估计放讲者备注，页面是否显示导航或计时由用户决定。大教室互动可以举手、选择、单句预测、错误分类或图解；有明确理解检查需求时，最后用一句话解释或判断。
 
-Preserve the five types: question, numbered list, story, negative, contrarian. Choose by fit to the topic; do not force a different type merely for variety.
+## hook-lab视频分析
 
-### Re-hook moves
+仅在用户提供视频链接或转写时考虑。保留元数据、最初1—3秒开头类型与强度、叙事段落作用、呈现标签、具体有效原因和三个改写方向。分析结果为表达设计提供依据，不能仅因仓库宣称就认定某种开头有效。
 
-Preserve numbering, contrast pair, curiosity nudge, anticipation and callback. In a lecture, place them at conceptual turns or after a dense explanation, not at every sentence. Every re-hook must lead to a real next idea.
+## ootto-watch视听分析
 
-## ModernDive_book
-
-Source facilitator scaffold:
-
-- learning objectives;
-- section outline and minute estimates;
-- cold open;
-- cold-call moments;
-- transition phrases;
-- group-work break prompts;
-- exit ticket;
-- after-class self-check.
-
-Source slide scaffold:
-
-- title and learning objectives;
-- spaced-practice warm-up;
-- section dividers;
-- per-section MCQ check-ins;
-- predict-then-check prompts;
-- single-idea slides;
-- wrap-up retrieval.
-
-Lecture translation:
-
-- Keep learning objectives, cold open, predict-then-check, misconception checks and wrap-up retrieval.
-- Keep minute estimates in teacher notes; on-screen page navigation or timing follows the user's purpose and choices.
-- Use light audience interaction suitable for a lecture hall: hands, A/B/C/D, one-sentence prediction, classify a failure, or explain a diagram.
-- Keep exit-ticket logic as a final “用一句话解释/判断” item when an explicit learning check is useful.
-
-## hook-lab
-
-Only use when the user gives video URLs or transcripts. Preserve its analysis fields:
-
-- metadata panel;
-- first 1–3 seconds Hook type and strength;
-- narrative segments and their functions;
-- presentation/style labels;
-- concrete reasons the video works;
-- three rewrite directions.
-
-For lecture work, use these findings as evidence for a design choice. Do not claim that a hook is effective because the repository says so without a specific analyzed sample.
-
-## ootto-watch
-
-Only use when the user gives video URLs and the required media tools are available. Preserve its evidence model:
-
-- frames and words aligned on one timeline;
-- exact opening visual and spoken line;
-- beat-by-beat structure;
-- pacing and cut rhythm;
-- visual layout;
-- batch comparison across videos.
-
-Do not turn a video-analysis workflow into a default requirement for ordinary lecture drafting.
+仅在用户提供视频链接且所需媒体工具可用时使用。关注画面与台词同时间线对齐、准确开头、逐段结构、节奏、剪辑、布局和多视频比较。普通讲稿任务不默认启动视频分析。

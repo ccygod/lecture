@@ -1,6 +1,6 @@
-# Examples
+# 示例索引
 
-- [Before and after](briefing-before-after.md): original Chinese briefing excerpt and supporting slide brief.
-- [Quantity reference](quantity-reference.json): synthetic 120-to-180 comparison. Run `python3 scripts/compare_quantities.py examples/quantity-reference.json`. Expected ratio: `1.5`; relative change: `50`.
+- [讲稿前后对比](briefing-before-after.md)：原创中文汇报片段及页面说明。
+- [数量参照](quantity-reference.json)：虚构的120与180比较，运行`python3 scripts/compare_quantities.py examples/quantity-reference.json`，预期倍数1.5、相对变化50%。
 
-The examples illustrate choices. They are not fixed templates for every audience or claims about measured outcomes. Full lecture production still follows the intake and scope process in `SKILL.md`.
+示例说明选择方法，不是所有听众的固定模板。完整讲稿制作仍按SKILL.md核对用途与交付范围。
